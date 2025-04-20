@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Required items!"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:id="@+id/checkboxes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <CheckBox
+            android:id="@+id/pencil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pencil (Rs. 2)" />
+
+        <CheckBox
+            android:id="@+id/pen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pen (Rs. 10)" />
+
+        <CheckBox
+            android:id="@+id/scale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scale (Rs. 5)" />
+
+        <CheckBox
+            android:id="@+id/geometryBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Geometry Box (Rs. 100)" />
+
+        <CheckBox
+            android:id="@+id/notebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Classmate 100 pages Notebook (Rs. 60)" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Checkout..."/>
+
+    <TextView
+        android:id="@+id/cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:visibility="invisible"
+        android:text="Confirm?"/>
+
+</LinearLayout>
