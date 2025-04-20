@@ -5,7 +5,9 @@ Copy paste the 2 files per each project in their respective locations.
 
 List of Topics and Projects:
 1. Button .setOnClickListener (Calculator with just add button)
-2. Calculator with 4 Buttons
+2. Calculator with 4 Buttons (using .setOnClickListener)
 3. Radio Button (Calculator with all operations and a result button)
 4. CheckBox (Stationery app)
-5. ImageView Listener (Cafe shop)
+5. Custom CheckBox (Stationery app)
+6. ImageView Listener (Cafe shop)
+7. Toast (is implemented in most of the other programs listed above. simple topic.)
