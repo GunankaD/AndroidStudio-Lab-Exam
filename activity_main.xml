@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Enter Number 1"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Enter Number 2"
+        android:inputType="numberDecimal" />
+    
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <RadioButton
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add" />
+
+        <RadioButton
+            android:id="@+id/sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subtract"/>
+
+        <RadioButton
+            android:id="@+id/multi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Multiply"/>
+
+        <RadioButton
+            android:id="@+id/divide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Divide"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result:"
+        android:textSize="20sp"
+        android:layout_margin="20dp"/>
+</LinearLayout>
+    
