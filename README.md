@@ -9,5 +9,6 @@ List of Topics and Projects:
 3. Radio Button (Calculator with all operations and a result button)
 4. CheckBox (Stationery app)
 5. Custom CheckBox (Stationery app)
-6. ImageView Listener (Cafe shop)
-7. Toast (is implemented in most of the other programs listed above. simple topic.)
+6. Custom Radio Button
+7. ImageView Listener (Cafe shop)
+8. Toast (is implemented in most of the other programs listed above. simple topic.)
