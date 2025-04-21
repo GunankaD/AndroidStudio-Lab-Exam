@@ -9,8 +9,8 @@ List of Topics and Projects:
 3. Radio Button (Calculator with all operations and a result button)
 4. CheckBox (Stationery app)
 5. Custom CheckBox (Stationery app)
-6. Custom Radio Button
-7. Alert Dialog
+6. Custom Radio Button (Best Booze)
+7. Alert Dialog (Login Page)
 8. LogCat (Activity life cycle)
-9. ImageView Listener (Cafe shop)
+9. ImageView Listener (Desserts)
 10. Toast (is implemented in most of the other programs listed above. simple topic.)
