@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Radio Buttons\nBest Booooze?"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:textAlignment="center" />
+    
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+        
+        <RadioButton
+            android:id="@+id/oldmonk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@drawable/custom_radio"
+            android:text=" Old Monk"/>
+
+        <RadioButton
+            android:id="@+id/jaeger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@drawable/custom_radio"
+            android:text=" Jaeger Meister"/>
+
+        <RadioButton
+            android:id="@+id/bacardi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@drawable/custom_radio"
+            android:text=" Bacardi"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:text=""/>
+</LinearLayout>
