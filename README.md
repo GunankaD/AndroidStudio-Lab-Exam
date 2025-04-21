@@ -10,5 +10,7 @@ List of Topics and Projects:
 4. CheckBox (Stationery app)
 5. Custom CheckBox (Stationery app)
 6. Custom Radio Button
-7. ImageView Listener (Cafe shop)
-8. Toast (is implemented in most of the other programs listed above. simple topic.)
+7. Alert Dialog
+8. LogCat (Activity life cycle)
+9. ImageView Listener (Cafe shop)
+10. Toast (is implemented in most of the other programs listed above. simple topic.)
