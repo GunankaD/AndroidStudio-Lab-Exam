@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/increment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Increment"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#FFEB3B"
+        android:text="0"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="200dp" />
+
+    <Button
+        android:id="@+id/decrement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decrement"
+        android:layout_margin="20dp"/>
+
+</LinearLayout>
