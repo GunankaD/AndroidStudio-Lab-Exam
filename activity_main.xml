@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose your mobile brand"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_margin="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/radiog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+        <RadioButton
+            android:id="@+id/pixel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Pixel"
+            android:button="@drawable/custom_radiobutton"/>
+        <RadioButton
+            android:id="@+id/iphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" IPhone"
+            android:button="@drawable/custom_radiobutton"/>
+        <RadioButton
+            android:id="@+id/samsung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Samsung"
+            android:button="@drawable/custom_radiobutton"/>
+        <RadioButton
+            android:id="@+id/nokia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Nokia"
+            android:button="@drawable/custom_radiobutton"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit App"
+        android:layout_margin="20dp"/>
+
+
+</LinearLayout>
